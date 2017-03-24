@@ -1,0 +1,7 @@
+# modules
+create maven modules project:
+api/impl/utils jar
+web/resources  war
+main project   pom
+
+if you need some dependency,you can add it in the pom.xml
