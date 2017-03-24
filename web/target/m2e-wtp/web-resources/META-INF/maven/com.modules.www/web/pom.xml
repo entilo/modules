@@ -8,15 +8,21 @@
 		<artifactId>modules</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
+
 	<groupId>com.modules.www</groupId>
 	<artifactId>web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<dependencies>
+		<!-- modules dependencies -->
+		<dependency>
+			<groupId>com.modules.www</groupId>
+			<artifactId>impl</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

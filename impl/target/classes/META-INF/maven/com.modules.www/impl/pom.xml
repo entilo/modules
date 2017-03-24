@@ -9,10 +9,11 @@
 	<artifactId>impl</artifactId>
 
 	<dependencies>
+		<!-- modules dependencies -->
 		<dependency>
 			<groupId>com.modules.www</groupId>
 			<artifactId>api</artifactId>
-			<version>${project.version}</version> 
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 
